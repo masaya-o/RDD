@@ -1,0 +1,20 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular*}{0.7\hsize}{@{\hskip\tabcolsep\extracolsep\fill}l*{4}{c}}
+\toprule
+               &\multicolumn{3}{c}{Driver demographic characteristics}&\multicolumn{1}{c}{}\\\cmidrule(lr){2-4}\cmidrule(lr){2-4}
+               &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+               &\multicolumn{1}{c}{Male}&\multicolumn{1}{c}{White}&\multicolumn{1}{c}{Age}&\multicolumn{1}{c}{Accident}\\
+\midrule
+DUI            &       0.006   &       0.006   &      -0.140   &      -0.003   \\
+               &     (0.007)   &     (0.005)   &     (0.150)   &     (0.004)   \\
+
+Mean (at 0.079)&       0.784   &       0.846   &      33.989   &       0.085   \\
+Controls       &          No   &          No   &          No   &          No   \\
+Observations   &      89,967   &      89,967   &      89,967   &      89,967   \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize Note: All regressions have a bandwidth of 0.05.}\\
+\multicolumn{5}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.010}\\
+\end{tabular*}
+}
